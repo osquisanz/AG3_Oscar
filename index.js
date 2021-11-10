@@ -2,6 +2,7 @@
 import './style.css';
 
 //Gráfico de columnas. Mi 1º gráfico
+
 var visualization = d3plus.viz()
  .container("#viz1")
  .data([{"year": 1991, "name":"alpha", "value": 15},
